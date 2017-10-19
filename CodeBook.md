@@ -69,84 +69,84 @@ Column names for Activity and Subject are assigned and a tidy data set is create
 
 ## 3. Variables
 
-tAcc-XYZ            Accelerometer 3-axial raw signal (along a period of time denoted by t)
+tAcc-XYZ = Accelerometer 3-axial raw signal (along a period of time denoted by t)
 
-tGyro-XYZ           Gyroscope 3-axial raw signal (along a period of time denoted by t)
-
-
-tBodyAccJerk-XYZ    Jerk signals obtained from body linear acceleration
-
-tBodyGyroJerk-XYZ   Jerk signals obtained from angular velocity
+tGyro-XYZ = Gyroscope 3-axial raw signal (along a period of time denoted by t)
 
 
-tBodyAccMag         The magnitude of the three-dimensional signals above, calculated using the Euclidean norm
+tBodyAccJerk-XYZ = Jerk signals obtained from body linear acceleration
 
-tGravityAccMag      The magnitude of the three-dimensional signals above, calculated using the Euclidean norm
-
-tBodyAccJerkMag     The magnitude of the three-dimensional signals above, calculated using the Euclidean norm
-
-tBodyGyroMag        The magnitude of the three-dimensional signals above, calculated using the Euclidean norm
-
-tBodyGyroJerkMag    The magnitude of the three-dimensional signals above, calculated using the Euclidean norm
+tBodyGyroJerk-XYZ = Jerk signals obtained from angular velocity
 
 
-fBodyAcc-XYZ        Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
+tBodyAccMag = The magnitude of the three-dimensional signals above, calculated using the Euclidean norm
 
-fBodyAccJerk-XYZ    Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
+tGravityAccMag = The magnitude of the three-dimensional signals above, calculated using the Euclidean norm
 
-fBodyGyro-XYZ       Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
+tBodyAccJerkMag = The magnitude of the three-dimensional signals above, calculated using the Euclidean norm
 
-fBodyAccJerkMag     Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
+tBodyGyroMag = The magnitude of the three-dimensional signals above, calculated using the Euclidean norm
 
-fBodyGyroMag        Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
+tBodyGyroJerkMag = The magnitude of the three-dimensional signals above, calculated using the Euclidean norm
 
-fBodyGyroJerkMag    Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
+
+fBodyAcc-XYZ = Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
+
+fBodyAccJerk-XYZ = Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
+
+fBodyGyro-XYZ = Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
+
+fBodyAccJerkMag = Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
+
+fBodyGyroMag = Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
+
+fBodyGyroJerkMag = Result after applying Fast Fourier Transform (FFT) to respective variables ('f' indicates frequency domain signals)
 
 
 The set of variables that were estimated from these signals are: 
 
-mean()              Mean value
+mean() = Mean value
 
-std()               Standard deviation
+std() = Standard deviation
 
-mad()               Median absolute deviation 
+mad() = Median absolute deviation 
 
-max()               Largest value in array
+max() = Largest value in array
 
-min()               Smallest value in array
+min() = Smallest value in array
 
-sma()               Signal magnitude area
+sma() = Signal magnitude area
 
-energy()            Energy measure. Sum of the squares divided by the number of values. 
+energy() = Energy measure. Sum of the squares divided by the number of values. 
 
-iqr()               Interquartile range 
+iqr() = Interquartile range 
 
-entropy()           Signal entropy
+entropy() = Signal entropy
 
-arCoeff()           Autorregresion coefficients with Burg order equal to 4
+arCoeff() = Autorregresion coefficients with Burg order equal to 4
 
-correlation()       correlation coefficient between two signals
+correlation() = correlation coefficient between two signals
 
-maxInds()           index of the frequency component with largest magnitude
+maxInds() = index of the frequency component with largest magnitude
 
-meanFreq()          Weighted average of the frequency components to obtain a mean frequency
+meanFreq() = Weighted average of the frequency components to obtain a mean frequency
 
-skewness()          skewness of the frequency domain signal 
+skewness() = skewness of the frequency domain signal 
 
-kurtosis()          kurtosis of the frequency domain signal 
+kurtosis() = kurtosis of the frequency domain signal 
 
-bandsEnergy()       Energy of a frequency interval within the 64 bins of the FFT of each window.
+bandsEnergy() = Energy of a frequency interval within the 64 bins of the FFT of each window.
 
-angle()             Angle between to vectors
+angle() = Angle between to vectors
 
 
-gravityMean         vector obtained by averaging the signals in a signal window sample (iti si used in angle() variable)
+gravityMean = vector obtained by averaging the signals in a signal window sample (iti si used in angle() variable)
 
-tBodyAccMean        vector obtained by averaging the signals in a signal window sample (iti si used in angle() variable)
+tBodyAccMean = vector obtained by averaging the signals in a signal window sample (iti si used in angle() variable)
 
-tBodyAccJerkMean    vector obtained by averaging the signals in a signal window sample (iti si used in angle() variable)
+tBodyAccJerkMean = vector obtained by averaging the signals in a signal window sample (iti si used in angle() variable)
 
-tBodyGyroMean       vector obtained by averaging the signals in a signal window sample (iti si used in angle() variable) 
+tBodyGyroMean = vector obtained by averaging the signals in a signal window sample (iti si used in angle() variable) 
 
-tBodyGyroJerkMean   vector obtained by averaging the signals in a signal window sample (iti si used in angle() variable)
+tBodyGyroJerkMean = vector obtained by averaging the signals in a signal window sample (iti si used in angle() variable)
 
