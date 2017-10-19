@@ -1,19 +1,19 @@
-CodeBook
+# CodeBook
 
-1. Source of the Data
-     The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone.  full description is available at the site where the data was obtained:
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-Here are the data for the project:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
-2. Steps taken
-a) Preparation of work and files
-Install and load the needed packages: dplyr; readr;
-Load packages to be used
-Download and read data from the Source (Internet link)
-We record the date when the files were downloAded
-Variable DataDirUCI receives as its value the directory where data was unzipped
-Tidy data directory and filenames are assigned to variables (tidyDataFile and tidyDataFileAVG respectively)
+# 1. Source of the Data
+#     The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone.  #     full description is available at the site where the data was obtained:
+#     http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+#     Here are the data for the project:
+#     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+#
+# 2. Steps taken
+# a) Preparation of work and files
+##   Install and load the needed packages: dplyr; readr;
+##   Load packages to be used
+##   Download and read data from the Source (Internet link)
+##   We record the date when the files were downloAded
+##   Variable DataDirUCI receives as its value the directory where data was unzipped
+##   Tidy data directory and filenames are assigned to variables (tidyDataFile and tidyDataFileAVG respectively)
 
 b) Answer to the specific task requierements 
 Task 1: 
